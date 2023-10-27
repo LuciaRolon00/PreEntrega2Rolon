@@ -165,3 +165,20 @@ footer {
     padding: 10px;
     cursor: pointer;
 }
+
+/* MEDIAS QUERIES */
+@media (max-width: 820px) {
+    header {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    video {
+        flex-direction: column;
+    }
+}
