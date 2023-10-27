@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TIENDA</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <!-- Ícono de la página -->
@@ -28,32 +30,73 @@
     </header>
 
     <main>
-        <div class="contenedorAccesorios">
-            <div class="accesorio">
-                <img class="accesorioImagen" src="../img/correa.webp" alt="Accesorio">
-                <button>Comprar</button>
-            </div>
-            <div class="accesorio">
-                <img class="accesorioImagen" src="../img/pelota.webp" alt="Accesorio">
-                <button>Comprar</button>
-            </div>
-            <div class="accesorio">
-                <img class="accesorioImagen" src="../img/patito.webp" alt="Accesorio">
-                <button>Comprar</button>
-            </div>
-            <div class="accesorio">
-                <img class="accesorioImagen" src="../img/comedero.webp" alt="Accesorio">
-                <button>Comprar</button>
-            </div>
-            <div class="accesorio">
-                <img class="accesorioImagen" src="../img/jueguete gatos.webp" alt="Accesorio">
-                <button>Comprar</button>
-            </div>
-            <div class="accesorio">
-                <img class="accesorioImagen"" src="../img/juguete raton.webp" alt="Accesorio">
-                <button>Comprar</button>
+        <div class="row">
+            <div class="container text-center">
+                <div class="row justify-content-start">
+                    <div class="col-xl-4 col-md-6 col-sm-12">
+                        <div class="card text-bg-warning mb-3 card border-danger mb-3" style="width: 18rem;">
+                            <img src="../img/correa.webp" class="card-img-top" alt="Accesorio">
+                            <div class="card-body">
+                              <h2 class="card-title">Correa</h2>
+                              <p class="card-text">Correa para perros extensible</p>
+                              <a href="carrito" class="btn btn-primary">COMPRAR</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-12">
+                        <div class="card text-bg-warning mb-3 card border-danger mb-3" style="width: 18rem;">
+                            <img src="../img/pelota.webp" class="card-img-top" alt="Accesorio">
+                            <div class="card-body">
+                                <h2 class="card-title">Pelota</h2>
+                                <p class="card-text">Pelota de fútbol de vinilo</p>
+                                <a href="carrito" class="btn btn-primary">COMPRAR</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-12">
+                        <div class="card text-bg-warning mb-3 card border-danger mb-3" style="width: 18rem;">
+                            <img src="../img/patito.webp" class="card-img-top" alt="Accesorio">
+                            <div class="card-body">
+                                <h2 class="card-title">Patito</h2>
+                                <p class="card-text">Patito de vinilo</p>
+                                <a href="carrito" class="btn btn-primary">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-12">
+                        <div class="card text-bg-warning mb-3 card border-danger mb-3" style="width: 18rem;">
+                            <img src="../img/jueguete gatos.webp" class="card-img-top" alt="Accesorio">
+                            <div class="card-body">
+                                <h2 class="card-title">Cañita</h2>
+                                <p class="card-text">Juguete para gatos</p>
+                                <a href="carrito" class="btn btn-primary">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-12">
+                        <div class="card text-bg-warning mb-3 card border-danger mb-3" style="width: 18rem;">
+                            <img src="../img/comedero.webp" class="card-img-top" alt="Accesorio">
+                            <div class="card-body">
+                                <h2 class="card-title">Comedero</h2>
+                                <p class="card-text">Bowl doble para comida</p>
+                                <a href="carrito" class="btn btn-primary">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-12">
+                         <div class="card text-bg-warning mb-3 card border-danger mb-3" style="width: 18rem;">
+                            <img src="../img/juguete raton.webp" class="card-img-top" alt="Accesorio">
+                            <div class="card-body">
+                                <h2 class="card-title">Ratoncito</h2>
+                                <p class="card-text">Ratón para gatos</p>
+                                <a href="carrito" class="btn btn-primary">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+    
     </main>
     <footer>
         <div class="copyright">
@@ -64,5 +107,7 @@
             <img src="../img/Whatsapp.png" alt="Whatsapp"> 
         </div>
     </footer>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
